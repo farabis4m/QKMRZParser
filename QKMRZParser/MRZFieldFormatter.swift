@@ -113,6 +113,8 @@ class MRZFieldFormatter {
             .replace("0", with: "O")
             .replace("1", with: "I")
             .replace("2", with: "Z")
+            .replace("5", with: "S")
+            .replace("7", with: "Z")
             .replace("8", with: "B")
     }
     
