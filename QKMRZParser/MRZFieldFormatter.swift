@@ -116,7 +116,6 @@ class MRZFieldFormatter {
             .replace("5", with: "S")
             .replace("7", with: "Z")
             .replace("8", with: "B")
-            .replace("/-\\", with: "A")
     }
     
     private func replaceLetters(in string: String) -> String {
@@ -128,5 +127,6 @@ class MRZFieldFormatter {
             .replace("I", with: "1")
             .replace("Z", with: "2")
             .replace("B", with: "8")
+            .replace("T", with: "1")
     }
 }
