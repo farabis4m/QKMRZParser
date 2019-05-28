@@ -128,6 +128,5 @@ class MRZFieldFormatter {
             .replace("Z", with: "2")
             .replace("B", with: "8")
             .replace("T", with: "1")
-            .replace("\\", with: "")
     }
 }
